@@ -542,7 +542,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "BOM\\Press_CPU_BOM_VER1.0.csv",
+    "bom_export_filename": "BOM\\PDU_Control_Board_VER1.2.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -571,6 +571,12 @@
         },
         {
           "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Product Name",
           "name": "Product Name",
           "show": true
@@ -585,12 +591,6 @@
           "group_by": false,
           "label": "Description P/N",
           "name": "Description P/N",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
@@ -682,6 +682,12 @@
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -740,13 +746,29 @@
         "uuid": "1f44d793-713f-4781-bd7e-20142de81965"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C1-56,#PWR1-181,D1-23,L1-11,R1-46,J1-5,U1-13,Q1-4,Y1",
     "variants": []
   },
   "sheets": [
     [
       "1f44d793-713f-4781-bd7e-20142de81965",
       "PSFB_MCU"
+    ],
+    [
+      "882102b7-f8d1-400c-afa7-8ac67ae7ed60",
+      "PSFB_Control_1"
+    ],
+    [
+      "bae84a7e-8a54-4e33-a45d-3b35018168ca",
+      "PSFB_Control_2"
+    ],
+    [
+      "6f8e520f-690f-43ad-b257-65182ba17698",
+      "PSFB_Control_3"
+    ],
+    [
+      "13162617-1e75-4b58-a377-a6e0c7e6fc3f",
+      "PSFB_Control_4"
     ]
   ],
   "text_variables": {},
