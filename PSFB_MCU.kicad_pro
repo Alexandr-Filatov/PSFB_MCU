@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.3,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -705,7 +721,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -746,7 +762,7 @@
         "uuid": "1f44d793-713f-4781-bd7e-20142de81965"
       }
     ],
-    "used_designators": "C1-56,#PWR1-181,D1-23,L1-11,R1-46,J1-5,U1-13,Q1-4,Y1",
+    "used_designators": "D1-38,#PWR1-219,#PWR229-232,#PWR252,#PWR261-263,C1-87,C109-110,R1-77,R87,R90-91,J1-8,J10-13,JP6-7,U1-17,U31-32,Y1,L1-13,Q1-4",
     "variants": []
   },
   "sheets": [
@@ -759,16 +775,32 @@
       "PSFB_Control_1"
     ],
     [
-      "bae84a7e-8a54-4e33-a45d-3b35018168ca",
+      "ca5c5fb1-e422-4603-96eb-7e5017ec2b78",
       "PSFB_Control_2"
     ],
     [
-      "6f8e520f-690f-43ad-b257-65182ba17698",
+      "4f7e7ce7-1338-439f-9338-c44d634fbeae",
       "PSFB_Control_3"
     ],
     [
-      "13162617-1e75-4b58-a377-a6e0c7e6fc3f",
+      "f8af0982-a639-4c3a-9bea-19f9c7596358",
       "PSFB_Control_4"
+    ],
+    [
+      "70828a48-f97b-4e66-8746-e00d52ef0e18",
+      "Connector_channel_1"
+    ],
+    [
+      "a38d4a25-54b0-402f-ba25-3bfc3756c343",
+      "Connector_channel_2"
+    ],
+    [
+      "70b7ff82-f266-429f-9b56-1fc4058a165c",
+      "HVoltage_measure_1"
+    ],
+    [
+      "466c5d9d-9183-41d7-9d4e-91fdd8aaeb6b",
+      "LVoltage+measure"
     ]
   ],
   "text_variables": {},
