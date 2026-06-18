@@ -762,7 +762,7 @@
         "uuid": "1f44d793-713f-4781-bd7e-20142de81965"
       }
     ],
-    "used_designators": "D1-38,#PWR1-219,#PWR229-232,#PWR252,#PWR261-263,C1-87,C109-110,R1-77,R87,R90-91,J1-8,J10-13,JP6-7,U1-17,U31-32,Y1,L1-13,Q1-4",
+    "used_designators": "L14,#PWR188-189,#PWR191,#PWR194-196,#PWR202,#PWR204,#PWR220-267,D39-47,C88-116,R52,R64,R78-104,J8,U17-21,U33",
     "variants": []
   },
   "sheets": [
@@ -772,19 +772,19 @@
     ],
     [
       "882102b7-f8d1-400c-afa7-8ac67ae7ed60",
-      "PSFB_Control_1"
+      "LVDS_1"
     ],
     [
       "ca5c5fb1-e422-4603-96eb-7e5017ec2b78",
-      "PSFB_Control_2"
+      "LVDS_2"
     ],
     [
       "4f7e7ce7-1338-439f-9338-c44d634fbeae",
-      "PSFB_Control_3"
+      "LVDS_3"
     ],
     [
       "f8af0982-a639-4c3a-9bea-19f9c7596358",
-      "PSFB_Control_4"
+      "LVDS_4"
     ],
     [
       "70828a48-f97b-4e66-8746-e00d52ef0e18",
@@ -796,11 +796,15 @@
     ],
     [
       "70b7ff82-f266-429f-9b56-1fc4058a165c",
-      "HVoltage_measure_1"
+      "HVoltage_measure"
     ],
     [
       "466c5d9d-9183-41d7-9d4e-91fdd8aaeb6b",
-      "LVoltage+measure"
+      "LVoltage_measure"
+    ],
+    [
+      "89bad089-f9ba-4bb1-8a9e-1e0b06104275",
+      "Current_measure1"
     ]
   ],
   "text_variables": {},
