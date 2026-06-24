@@ -932,7 +932,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3.3VA"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -957,7 +957,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3.3VA"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -989,7 +989,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1011,7 +1011,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3.3VA_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1049,7 +1049,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3.3VA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1725,6 +1725,83 @@
 		(uuid "ad78fa86-9be6-4b51-a9b4-8861d0185364")
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 124.46 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ca100fe-e2cc-4967-b135-1d7636a0aad6")
+		(property "Reference" "#PWR0262"
+			(at 124.46 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 124.206 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "171208b0-9201-4cab-913f-b3c5dc169005")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
+					(reference "#PWR0262")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 139.7 83.82 0)
 		(unit 1)
@@ -1735,7 +1812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11efce16-6c90-406d-8b71-fc54aee31c87")
-		(property "Reference" "R92"
+		(property "Reference" "R93"
 			(at 140.716 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1801,7 +1878,7 @@
 				)
 			)
 		)
-		(property "Purpose" ""
+		(property "Description P/N" "Resistor SMD 0.1%"
 			(at 139.7 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1812,18 +1889,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
-			(at 139.7 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product Name" "RT0805BRD072KL"
+		(property "Product Name" ""
 			(at 139.7 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1920,15 +1986,15 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "R92")
+					(reference "R93")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 124.46 106.68 0)
+		(lib_id "power:+3.3VA")
+		(at 124.46 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1936,10 +2002,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1529423d-494f-4f62-9f51-a38a8291f2e4")
-		(property "Reference" "#PWR0249"
-			(at 124.46 110.49 0)
+		(uuid "2572b41f-80c8-4ad6-9436-b63204755660")
+		(property "Reference" "#PWR0254"
+			(at 124.46 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1949,8 +2014,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 124.46 102.87 0)
+		(property "Value" "+3.3VA"
+			(at 124.206 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1960,7 +2025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 106.68 0)
+			(at 124.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1971,7 +2036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 106.68 0)
+			(at 124.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,8 +2046,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 124.46 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 124.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1993,12 +2058,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "13997d7f-f889-48e6-8962-102a935d8e67")
+			(uuid "bc839f42-e296-4680-8d4f-fc690be7f081")
 		)
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0249")
+					(reference "#PWR0254")
 					(unit 1)
 				)
 			)
@@ -2015,7 +2080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "265d24d9-a543-4798-98fa-6a66f5501f5a")
-		(property "Reference" "R93"
+		(property "Reference" "R95"
 			(at 140.716 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2081,7 +2146,7 @@
 				)
 			)
 		)
-		(property "Purpose" ""
+		(property "Description P/N" "Resistor SMD 0.1%"
 			(at 139.7 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2092,18 +2157,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
-			(at 139.7 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product Name" "RT0805BRD073KL"
+		(property "Product Name" ""
 			(at 139.7 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2200,7 +2254,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "R93")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -2219,7 +2273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bb3aaaf-dfa5-4e9a-82e6-15a278de111f")
-		(property "Reference" "D43"
+		(property "Reference" "D46"
 			(at 131.572 81.6518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2320,7 +2374,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "D43")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -2338,7 +2392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32d1f63f-64b1-47ac-91c4-072b0c0d10e1")
-		(property "Reference" "#PWR0247"
+		(property "Reference" "#PWR0260"
 			(at 127 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2398,7 +2452,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0247")
+					(reference "#PWR0260")
 					(unit 1)
 				)
 			)
@@ -2415,7 +2469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44b4f83e-d5a9-4db0-86fa-abf199a97422")
-		(property "Reference" "R97"
+		(property "Reference" "R98"
 			(at 140.716 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2481,7 +2535,7 @@
 				)
 			)
 		)
-		(property "Purpose" ""
+		(property "Description P/N" "Resistor SMD 0.1%"
 			(at 139.7 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2492,18 +2546,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
-			(at 139.7 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product Name" "RT0805BRD073KL"
+		(property "Product Name" ""
 			(at 139.7 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2600,7 +2643,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "R97")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -2617,7 +2660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48efded9-bb6a-43ea-b670-8a64ad907c1f")
-		(property "Reference" "#PWR0248"
+		(property "Reference" "#PWR0255"
 			(at 129.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2677,7 +2720,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0248")
+					(reference "#PWR0255")
 					(unit 1)
 				)
 			)
@@ -2694,7 +2737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fb70892-131a-449e-8d65-279c5cd8f06c")
-		(property "Reference" "C102"
+		(property "Reference" "C105"
 			(at 127.254 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2760,18 +2803,7 @@
 				)
 			)
 		)
-		(property "Purpose" ""
-			(at 127 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25V"
 			(at 127 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2879,7 +2911,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "C102")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -2896,7 +2928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52547bbb-eb87-4ec2-ba42-bb59125483c1")
-		(property "Reference" "R95"
+		(property "Reference" "R97"
 			(at 134.62 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2960,18 +2992,7 @@
 				)
 			)
 		)
-		(property "Purpose" ""
-			(at 134.62 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 134.62 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3079,85 +3100,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "R95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 124.46 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70b9b034-3a3e-4de3-b56a-099a261028e7")
-		(property "Reference" "#PWR0245"
-			(at 124.46 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 124.46 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ad65c54-1dff-40e1-862b-118f25b7960a")
-		)
-		(instances
-			(project "PSFB_MCU"
-				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0245")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -3174,7 +3117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8538088a-9e02-4edd-94ed-7d30fb8aea0c")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0256"
 			(at 175.26 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3234,7 +3177,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0226")
+					(reference "#PWR0256")
 					(unit 1)
 				)
 			)
@@ -3252,7 +3195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92e48fec-2c08-47cc-9edb-2535867bd7a2")
-		(property "Reference" "#PWR0246"
+		(property "Reference" "#PWR0261"
 			(at 139.7 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3312,7 +3255,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0246")
+					(reference "#PWR0261")
 					(unit 1)
 				)
 			)
@@ -3330,7 +3273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "949a4b3c-d81f-40f7-8f11-658a68f18e99")
-		(property "Reference" "#PWR0253"
+		(property "Reference" "#PWR0259"
 			(at 173.99 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3390,7 +3333,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0253")
+					(reference "#PWR0259")
 					(unit 1)
 				)
 			)
@@ -3408,7 +3351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3618c80-89db-4da7-ba47-c1571d561587")
-		(property "Reference" "#PWR0254"
+		(property "Reference" "#PWR0267"
 			(at 173.99 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3468,7 +3411,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0254")
+					(reference "#PWR0267")
 					(unit 1)
 				)
 			)
@@ -3539,6 +3482,28 @@
 				)
 			)
 		)
+		(property "Description P/N" "Connector"
+			(at 166.37 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1073-01-2x3MR2T6"
+			(at 166.37 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b11e60e6-a9b9-471d-9e48-3dcbd53bd4f8")
 		)
@@ -3578,7 +3543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b848e2e7-1829-48d8-b09b-dc2a93f43d70")
-		(property "Reference" "#PWR0252"
+		(property "Reference" "#PWR0269"
 			(at 139.7 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3638,7 +3603,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0252")
+					(reference "#PWR0269")
 					(unit 1)
 				)
 			)
@@ -3721,7 +3686,7 @@
 				)
 			)
 		)
-		(property "Purpose" ""
+		(property "Description P/N" "Resistor SMD 0.1%"
 			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3732,18 +3697,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
-			(at 139.7 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product Name" "RT0805BRD072KL"
+		(property "Product Name" ""
 			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3857,7 +3811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb348907-1824-4533-9686-abf081ae8c50")
-		(property "Reference" "#PWR0251"
+		(property "Reference" "#PWR0263"
 			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3917,7 +3871,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0251")
+					(reference "#PWR0263")
 					(unit 1)
 				)
 			)
@@ -3934,7 +3888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d27c9b29-f5ba-4301-99ee-29b3c9e2243d")
-		(property "Reference" "C103"
+		(property "Reference" "C106"
 			(at 127.254 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,18 +3954,7 @@
 				)
 			)
 		)
-		(property "Purpose" ""
-			(at 127 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25V"
 			(at 127 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4119,7 +4062,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "C103")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -4137,7 +4080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7c2d454-0a04-43c0-a0a4-65261b6fdd23")
-		(property "Reference" "#PWR0262"
+		(property "Reference" "#PWR0266"
 			(at 160.02 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4197,7 +4140,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0262")
+					(reference "#PWR0266")
 					(unit 1)
 				)
 			)
@@ -4214,7 +4157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db7c8951-038c-4fed-8fbd-ae4d2e065d5d")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR0265"
 			(at 154.94 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4274,7 +4217,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0230")
+					(reference "#PWR0265")
 					(unit 1)
 				)
 			)
@@ -4292,7 +4235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de2b2134-8899-4b7b-8b3b-490c3a0c4123")
-		(property "Reference" "#PWR0250"
+		(property "Reference" "#PWR0268"
 			(at 127 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4352,7 +4295,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0250")
+					(reference "#PWR0268")
 					(unit 1)
 				)
 			)
@@ -4369,7 +4312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e61fb03d-efee-48df-bbc5-8cb7dfd48268")
-		(property "Reference" "#PWR0255"
+		(property "Reference" "#PWR0264"
 			(at 175.26 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4429,7 +4372,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0255")
+					(reference "#PWR0264")
 					(unit 1)
 				)
 			)
@@ -4446,7 +4389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e628fd22-7d8e-4e3c-a31a-86df01ba4239")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0257"
 			(at 154.94 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4506,7 +4449,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0227")
+					(reference "#PWR0257")
 					(unit 1)
 				)
 			)
@@ -4587,18 +4530,7 @@
 				)
 			)
 		)
-		(property "Purpose" ""
-			(at 134.62 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD 1%"
 			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4725,7 +4657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7f4ec6d-25f5-4545-b569-b03dad334f2c")
-		(property "Reference" "D44"
+		(property "Reference" "D47"
 			(at 131.572 110.8618 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4826,7 +4758,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "D44")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -4844,7 +4776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7d8bf6e-23a7-421e-8554-eb7b67291342")
-		(property "Reference" "#PWR0261"
+		(property "Reference" "#PWR0258"
 			(at 160.02 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4904,7 +4836,7 @@
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0261")
+					(reference "#PWR0258")
 					(unit 1)
 				)
 			)
@@ -4965,6 +4897,28 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 166.37 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 166.37 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1073-01-2x3MR2T6"
 			(at 166.37 110.49 0)
 			(hide yes)
 			(show_name no)
