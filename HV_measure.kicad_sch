@@ -5911,7 +5911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_My:Mini-Fit_01x02_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal"
 			(at 83.82 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5967,6 +5967,17 @@
 			)
 		)
 		(property "Product Name" "DS1073-01-2x1-MVT6"
+			(at 83.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 83.82 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7336,7 +7347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
 			(at 125.73 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9537,7 +9548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_My:Mini-Fit_01x02_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal"
 			(at 83.82 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9593,6 +9604,17 @@
 			)
 		)
 		(property "Product Name" "DS1073-01-2x1-MVT6"
+			(at 83.82 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 83.82 100.33 0)
 			(hide yes)
 			(show_name no)

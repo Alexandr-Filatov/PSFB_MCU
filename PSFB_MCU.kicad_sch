@@ -5100,6 +5100,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_EEPROM:AT25xxx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8995,7 +9094,7 @@
 	)
 	(rectangle
 		(start 337.82 31.75)
-		(end 425.45 86.36)
+		(end 459.74 86.36)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9043,7 +9142,7 @@
 	)
 	(rectangle
 		(start 337.82 93.98)
-		(end 425.45 148.59)
+		(end 459.74 148.59)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9250,6 +9349,12 @@
 		(uuid "1dddf444-cd64-4eed-8fd1-b0d17999a990")
 	)
 	(junction
+		(at 417.83 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20df14ec-f27b-4f10-8c00-edc035da6602")
+	)
+	(junction
 		(at 387.35 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9314,6 +9419,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44cd366a-f328-4ad8-b731-f82d674d874f")
+	)
+	(junction
+		(at 415.29 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "492ddc7f-498f-4808-9ae8-4e1efca4a9ca")
 	)
 	(junction
 		(at 195.58 31.75)
@@ -9388,6 +9499,12 @@
 		(uuid "784d3121-145e-4e41-afce-451bdba79b6b")
 	)
 	(junction
+		(at 24.13 336.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78911990-c2c6-4ddf-bd6f-13df04f1bd62")
+	)
+	(junction
 		(at 160.02 360.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9442,12 +9559,6 @@
 		(uuid "8f390d2c-768e-4092-a9c8-1179b77bce3f")
 	)
 	(junction
-		(at 24.13 331.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f3d63bf-7316-4f82-819f-0094f3f6c296")
-	)
-	(junction
 		(at 389.89 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9490,6 +9601,12 @@
 		(uuid "9fb4bb14-46c2-480d-99f3-3f44bb0d308b")
 	)
 	(junction
+		(at 415.29 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0fb354c-b071-4895-b000-d091eb0cf8b6")
+	)
+	(junction
 		(at 128.27 351.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9526,6 +9643,12 @@
 		(uuid "ae3b9079-b876-492b-9072-69d70aeb2bd6")
 	)
 	(junction
+		(at 417.83 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b045c4a2-9644-4780-9060-4f2ac7600ad9")
+	)
+	(junction
 		(at 342.9 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9556,6 +9679,12 @@
 		(uuid "bf1f9acd-cba8-4ba4-809b-00a2636ebabf")
 	)
 	(junction
+		(at 415.29 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf717fba-5604-4b5a-a03a-bbc6920ea952")
+	)
+	(junction
 		(at 384.81 293.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9584,6 +9713,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c876280e-502b-4eed-8b40-3a44f2208abe")
+	)
+	(junction
+		(at 36.83 336.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c96b54a2-5bed-47d8-a8f4-d185e7e76a5e")
 	)
 	(junction
 		(at 205.74 31.75)
@@ -9644,6 +9779,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc6901aa-11de-46bf-870c-ddb96a9f4040")
+	)
+	(junction
+		(at 415.29 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd72198c-0039-4529-ae3e-c399cae4d06b")
 	)
 	(junction
 		(at 175.26 360.68)
@@ -9722,12 +9863,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f292a03e-9a52-4a6b-9a4e-3567b1d34e61")
-	)
-	(junction
-		(at 36.83 331.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f350f3c1-ec2a-4f41-9986-92ef5fa36448")
 	)
 	(junction
 		(at 342.9 123.19)
@@ -10067,6 +10202,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 110.49) (xy 417.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a4f3a5-cc6c-4790-8594-a0f1e15b882a")
+	)
+	(wire
+		(pts
 			(xy 167.64 401.32) (xy 167.64 373.38)
 		)
 		(stroke
@@ -10207,6 +10352,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 125.73) (xy 415.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fe2955-97bf-43b0-8c82-32e8a0dc1630")
+	)
+	(wire
+		(pts
 			(xy 147.32 137.16) (xy 147.32 132.08)
 		)
 		(stroke
@@ -10307,6 +10462,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 63.5) (xy 415.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222b9628-1239-4ef5-9ada-6311d7a5126b")
+	)
+	(wire
+		(pts
 			(xy 290.83 62.23) (xy 288.29 62.23)
 		)
 		(stroke
@@ -10344,6 +10509,16 @@
 			(type default)
 		)
 		(uuid "240a9312-b21a-4120-bf14-97d8d551e97d")
+	)
+	(wire
+		(pts
+			(xy 417.83 110.49) (xy 422.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245aac86-4167-43e8-b55f-a282a7210213")
 	)
 	(wire
 		(pts
@@ -10587,16 +10762,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 331.47) (xy 36.83 334.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3176d2ae-c04a-4fdf-8476-73b0d005ba37")
-	)
-	(wire
-		(pts
 			(xy 379.73 224.79) (xy 402.59 224.79)
 		)
 		(stroke
@@ -10837,6 +11002,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 48.26) (xy 422.91 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc07a1f-864d-4a4a-b982-8779e55814da")
+	)
+	(wire
+		(pts
 			(xy 55.88 372.11) (xy 55.88 379.73)
 		)
 		(stroke
@@ -10864,6 +11039,16 @@
 			(type default)
 		)
 		(uuid "40ee2b52-2f6b-4a89-a963-3e31b3585840")
+	)
+	(wire
+		(pts
+			(xy 24.13 336.55) (xy 24.13 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410df90c-6ba3-4bbd-961e-b9ebf1e94d73")
 	)
 	(wire
 		(pts
@@ -10967,6 +11152,16 @@
 	)
 	(wire
 		(pts
+			(xy 415.29 120.65) (xy 415.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eef02e5-8421-42d3-b5fd-2e28d6901d2e")
+	)
+	(wire
+		(pts
 			(xy 132.08 121.92) (xy 157.48 121.92)
 		)
 		(stroke
@@ -11034,16 +11229,6 @@
 			(type default)
 		)
 		(uuid "5251ef60-10bc-4759-a364-eafbce5e0d5a")
-	)
-	(wire
-		(pts
-			(xy 24.13 331.47) (xy 24.13 334.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52bb5717-17a1-4f3f-a83b-25b0e504a6d3")
 	)
 	(wire
 		(pts
@@ -11334,6 +11519,16 @@
 			(type default)
 		)
 		(uuid "61ee653c-c9f4-48e8-a06e-c0f92726b768")
+	)
+	(wire
+		(pts
+			(xy 198.12 129.54) (xy 209.55 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a5f095-9604-45a2-bc54-ef2c208a3124")
 	)
 	(wire
 		(pts
@@ -11657,6 +11852,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 66.04) (xy 417.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754d7baf-5473-43b2-8222-b4d728d845f4")
+	)
+	(wire
+		(pts
 			(xy 109.22 351.79) (xy 128.27 351.79)
 		)
 		(stroke
@@ -11684,6 +11889,16 @@
 			(type default)
 		)
 		(uuid "760b03d4-6113-4401-9462-9bb4f3c53f2b")
+	)
+	(wire
+		(pts
+			(xy 36.83 336.55) (xy 36.83 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c32087-361a-44fe-9009-2f07401060d1")
 	)
 	(wire
 		(pts
@@ -12057,6 +12272,16 @@
 	)
 	(wire
 		(pts
+			(xy 415.29 63.5) (xy 415.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d24494b-13fb-4af9-bd9a-650581955d0d")
+	)
+	(wire
+		(pts
 			(xy 342.9 54.61) (xy 358.14 54.61)
 		)
 		(stroke
@@ -12204,6 +12429,16 @@
 			(type default)
 		)
 		(uuid "94619596-95f8-4dd3-b0bf-feabfc7430f7")
+	)
+	(wire
+		(pts
+			(xy 36.83 323.85) (xy 31.75 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948e4929-2bc7-40b1-ac0c-660fb66b2aa4")
 	)
 	(wire
 		(pts
@@ -12364,6 +12599,16 @@
 			(type default)
 		)
 		(uuid "9c64b01d-12ee-4ac1-babe-5f19248cf7f4")
+	)
+	(wire
+		(pts
+			(xy 422.91 66.04) (xy 417.83 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea2508e-ecca-40df-a6dc-b1d9d9f13cbd")
 	)
 	(wire
 		(pts
@@ -12597,6 +12842,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 73.66) (xy 422.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3f72c1-9825-4a35-8288-f7357cf3af3a")
+	)
+	(wire
+		(pts
 			(xy 198.12 78.74) (xy 204.47 78.74)
 		)
 		(stroke
@@ -12644,16 +12899,6 @@
 			(type default)
 		)
 		(uuid "ad6615a2-4b0b-4f48-bde8-8d7aa5a25bcf")
-	)
-	(wire
-		(pts
-			(xy 415.29 120.65) (xy 415.29 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae82943a-25df-4e29-b59b-a4ec374c8661")
 	)
 	(wire
 		(pts
@@ -12784,6 +13029,16 @@
 			(type default)
 		)
 		(uuid "b3c6af1a-60a0-4551-b79e-ebd103f763ab")
+	)
+	(wire
+		(pts
+			(xy 422.91 57.15) (xy 422.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3eef22f-3823-4d96-a520-0b40cd1ba4d7")
 	)
 	(wire
 		(pts
@@ -12957,6 +13212,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 336.55) (xy 36.83 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ab8f31-babc-498d-9b8e-b767e27c556c")
+	)
+	(wire
+		(pts
 			(xy 403.86 119.38) (xy 402.59 119.38)
 		)
 		(stroke
@@ -13067,6 +13332,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 135.89) (xy 422.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf845d2b-3164-48b2-a8ab-9086ee39b998")
+	)
+	(wire
+		(pts
 			(xy 383.54 217.17) (xy 387.35 217.17)
 		)
 		(stroke
@@ -13134,6 +13409,16 @@
 			(type default)
 		)
 		(uuid "c1bf7411-7e13-4e87-b1b4-71895e33d073")
+	)
+	(wire
+		(pts
+			(xy 422.91 78.74) (xy 415.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1eaed28-8fe8-4b26-aa69-0321faf533b1")
 	)
 	(wire
 		(pts
@@ -13297,6 +13582,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 48.26) (xy 422.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c4d91f-3913-4bbe-879f-3b2518f33c84")
+	)
+	(wire
+		(pts
 			(xy 330.2 378.46) (xy 334.01 378.46)
 		)
 		(stroke
@@ -13317,7 +13612,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 328.93) (xy 24.13 331.47)
+			(xy 24.13 323.85) (xy 24.13 336.55)
 		)
 		(stroke
 			(width 0)
@@ -13437,6 +13732,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 128.27) (xy 422.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19e1bf8-ea7b-4df3-a9aa-a9b3116cca10")
+	)
+	(wire
+		(pts
 			(xy 157.48 119.38) (xy 138.43 119.38)
 		)
 		(stroke
@@ -13464,6 +13769,16 @@
 			(type default)
 		)
 		(uuid "d3169ad2-cd0a-4616-a170-23e4e8669a35")
+	)
+	(wire
+		(pts
+			(xy 422.91 110.49) (xy 422.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3932a84-72b5-412a-a1de-7750f12e6a80")
 	)
 	(wire
 		(pts
@@ -13544,6 +13859,16 @@
 			(type default)
 		)
 		(uuid "d62feb6b-6f2a-4367-8242-97b82e489907")
+	)
+	(wire
+		(pts
+			(xy 36.83 323.85) (xy 36.83 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6375580-8844-4d13-8d24-017247bb7795")
 	)
 	(wire
 		(pts
@@ -13637,6 +13962,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 66.04) (xy 422.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db77d227-0baa-4129-93e9-9a56f38b504e")
+	)
+	(wire
+		(pts
 			(xy 341.63 336.55) (xy 345.44 336.55)
 		)
 		(stroke
@@ -13687,6 +14022,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 128.27) (xy 417.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda83980-c54e-4757-8da3-25c8666470b4")
+	)
+	(wire
+		(pts
 			(xy 210.82 142.24) (xy 198.12 142.24)
 		)
 		(stroke
@@ -13714,6 +14059,16 @@
 			(type default)
 		)
 		(uuid "dff6308b-852d-4099-986a-eecfae2e320d")
+	)
+	(wire
+		(pts
+			(xy 24.13 323.85) (xy 29.21 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0dc7eaa-d967-4b7a-bc2e-6f0822313f2f")
 	)
 	(wire
 		(pts
@@ -13804,6 +14159,16 @@
 			(type default)
 		)
 		(uuid "e3f7813e-2ab9-4369-a83f-7e311b7dbaec")
+	)
+	(wire
+		(pts
+			(xy 415.29 48.26) (xy 417.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e429c2d7-a4c9-459e-b373-3c1637d82eae")
 	)
 	(wire
 		(pts
@@ -13907,6 +14272,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 140.97) (xy 415.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaaf1245-abc2-431a-9a6f-1e64d9891889")
+	)
+	(wire
+		(pts
 			(xy 184.15 332.74) (xy 184.15 334.01)
 		)
 		(stroke
@@ -13957,6 +14332,16 @@
 	)
 	(wire
 		(pts
+			(xy 415.29 110.49) (xy 417.83 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f022c56f-d78b-4af9-ae64-9c72cff7fa93")
+	)
+	(wire
+		(pts
 			(xy 405.13 118.11) (xy 405.13 130.81)
 		)
 		(stroke
@@ -13984,6 +14369,16 @@
 			(type default)
 		)
 		(uuid "f28ff5fd-d36c-499e-b099-bdfe2868b6fd")
+	)
+	(wire
+		(pts
+			(xy 415.29 125.73) (xy 415.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33e0dcd-73c1-4b80-8ec6-2da3fbd9818a")
 	)
 	(wire
 		(pts
@@ -14084,6 +14479,16 @@
 			(type default)
 		)
 		(uuid "f7bc736b-43b8-495c-812f-50daccf00ad5")
+	)
+	(wire
+		(pts
+			(xy 422.91 119.38) (xy 422.91 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e26bb9-2c2d-4a82-a057-c231af1ab06a")
 	)
 	(wire
 		(pts
@@ -14207,13 +14612,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 328.93) (xy 36.83 331.47)
+			(xy 24.13 336.55) (xy 29.21 336.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe48c2a0-afeb-4f41-8576-5e68afc54c52")
+		(uuid "fd1efc3f-7b12-4bee-954a-23daa6b9b4db")
 	)
 	(wire
 		(pts
@@ -14894,6 +15299,16 @@
 			(justify left bottom)
 		)
 		(uuid "cc2f7e50-ddca-4418-90b7-e195bde5a5bf")
+	)
+	(label "OverVoltage"
+		(at 209.55 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc621cb3-1524-4097-9652-00e5b3e5f815")
 	)
 	(label "SHDN_OverCurrent_2"
 		(at 351.79 336.55 0)
@@ -15708,6 +16123,83 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 435.61 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02dd20e4-1c8d-4be4-beab-070a3ede967c")
+		(property "Reference" "#PWR0275"
+			(at 441.96 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_CAN2"
+			(at 443.484 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 435.61 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 435.61 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f156c4a3-2519-4922-9c54-cdce8b9a0226")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "#PWR0275")
 					(unit 1)
 				)
 			)
@@ -16935,6 +17427,83 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 435.61 135.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e241197-58a4-45b0-8547-2e9227dcb62f")
+		(property "Reference" "#PWR0274"
+			(at 441.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_CAN2"
+			(at 443.484 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 435.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 435.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19253602-9e4a-4886-9d36-db3be0bcefb7")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "#PWR0274")
 					(unit 1)
 				)
 			)
@@ -19359,6 +19928,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power_my:GND_CAN")
+		(at 435.61 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b71454b-81f0-444d-9879-f8c01b666aa6")
+		(property "Reference" "#PWR0271"
+			(at 439.166 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_CAN1"
+			(at 443.484 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 435.61 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 435.61 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59677b5b-4afb-48b3-b5b3-b6cfb50ba0f9")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "#PWR0271")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 142.24 0)
 		(unit 1)
@@ -21553,6 +22199,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 436.88 389.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29e9606c-688e-44a1-b4e5-c0585970e947")
+		(property "Reference" "H3"
+			(at 439.42 388.6199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 439.42 391.1599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 436.88 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 436.88 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 436.88 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 436.88 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 436.88 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 436.88 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 142.24 0)
 		(unit 1)
@@ -22124,6 +22892,83 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 435.61 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3222e49e-cdc6-4250-9139-01dcc3295ccd")
+		(property "Reference" "#PWR0277"
+			(at 441.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_CAN2"
+			(at 443.484 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 435.61 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 435.61 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1df554b9-ac09-46c7-a79e-65f082a8d205")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "#PWR0277")
 					(unit 1)
 				)
 			)
@@ -24143,6 +24988,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 436.88 384.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ce6898f-9959-49a4-891f-4dcf97c813fe")
+		(property "Reference" "H2"
+			(at 439.42 383.5399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 439.42 386.0799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 436.88 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 436.88 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 436.88 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 436.88 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 436.88 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 436.88 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:NUP2105L")
 		(at 410.21 118.11 270)
 		(unit 1)
@@ -24674,6 +25641,213 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 430.53 116.84 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "400fc375-804a-4127-a769-939c83a12084")
+		(property "Reference" "J12"
+			(at 429.26 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 429.26 121.666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1073-01-2x2-MVT6"
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 430.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b4aead6c-a71c-4fe0-9912-cd0282946cf3")
+		)
+		(pin "4"
+			(uuid "61386079-8fb0-4501-8f5a-b496271c2acc")
+		)
+		(pin "1"
+			(uuid "e136cfef-6768-4189-9ba2-627cd4387968")
+		)
+		(pin "2"
+			(uuid "37892657-960d-44ef-9e21-d7c8ce3a6ec0")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -25219,7 +26393,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 29.21 328.93 0)
+		(at 31.75 328.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25229,7 +26403,7 @@
 		(dnp no)
 		(uuid "45292892-e89b-4608-b170-229af2249efd")
 		(property "Reference" "J2"
-			(at 30.48 326.39 0)
+			(at 34.29 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25239,7 +26413,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 30.48 333.756 0)
+			(at 26.924 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25248,8 +26422,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
-			(at 29.21 328.93 0)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25260,7 +26434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25271,7 +26445,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25282,7 +26456,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25293,7 +26467,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25304,7 +26478,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25315,7 +26489,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25326,7 +26500,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25337,7 +26511,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25348,7 +26522,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25359,7 +26533,7 @@
 			)
 		)
 		(property "Description P/N" "Connector"
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25370,7 +26544,29 @@
 			)
 		)
 		(property "Product Name" "DS1073-01-2x2-MVT6"
-			(at 29.21 328.93 0)
+			(at 31.75 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 31.75 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 31.75 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26130,6 +27326,205 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 436.88 394.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50262ad4-d7aa-4631-bd01-ecbb0783e67c")
+		(property "Reference" "H4"
+			(at 439.42 393.6999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 439.42 396.2399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 436.88 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 436.88 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 436.88 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 436.88 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 436.88 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 436.88 394.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_my:GND_CAN")
+		(at 435.61 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5094c125-bfb6-4b0b-b8aa-a132c900d6d3")
+		(property "Reference" "#PWR0273"
+			(at 439.166 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_CAN1"
+			(at 443.484 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 435.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 435.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d753cb77-cd31-4a01-a56b-a1e4519b2fed")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "#PWR0273")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 381 209.55 90)
 		(unit 1)
@@ -26848,6 +28243,128 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 436.88 379.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52a16040-969d-45ea-8c38-92f3fb84b5b2")
+		(property "Reference" "H1"
+			(at 439.42 378.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 439.42 380.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 436.88 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 436.88 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 436.88 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 436.88 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 436.88 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 436.88 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -31582,6 +33099,213 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 430.53 133.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75c07144-c106-42b4-a19f-cdc9424aa648")
+		(property "Reference" "J13"
+			(at 429.26 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 429.26 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1073-01-2x2-MVT6"
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 430.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "cbc9ed3c-3cb8-4357-9f83-68ff0d2e0b82")
+		)
+		(pin "4"
+			(uuid "c4c12ce5-1511-41f1-913f-40c960967415")
+		)
+		(pin "1"
+			(uuid "053137bb-d30f-40dd-8211-7e2a9649a3ea")
+		)
+		(pin "2"
+			(uuid "e8192ca8-9b8c-4498-8d59-94bb50114153")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 107.95 369.57 90)
 		(unit 1)
@@ -32303,7 +34027,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 308.61 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -32446,6 +34170,17 @@
 				)
 			)
 		)
+		(property "Function" ""
+			(at 308.61 387.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5cf1610-76e5-47ca-ae80-ff2c8e00230a")
 		)
@@ -32534,6 +34269,83 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_my:GND_CAN")
+		(at 435.61 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8038b5a2-3874-4fd4-8837-d2b97080d9f0")
+		(property "Reference" "#PWR0270"
+			(at 439.166 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_CAN1"
+			(at 443.484 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 435.61 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 435.61 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c10eb354-efb1-4f83-97d7-d182896ad622")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "#PWR0270")
 					(unit 1)
 				)
 			)
@@ -38751,7 +40563,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "68u"
 			(at 149.098 338.328 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38872,7 +40684,7 @@
 				)
 			)
 		)
-		(property "Product Name" "EEUFR2A101"
+		(property "Product Name" "EEUFC2A680 "
 			(at 148.59 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -38884,6 +40696,28 @@
 			)
 		)
 		(property "Description P/N" "Capacitor electrolytic low ESR"
+			(at 148.59 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 148.59 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
 			(at 148.59 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -41556,7 +43390,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 267.97 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -41689,6 +43523,17 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 267.97 387.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 267.97 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -42641,7 +44486,7 @@
 	)
 	(symbol
 		(lib_id "power_my:GND_IN")
-		(at 36.83 334.01 0)
+		(at 36.83 339.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42651,7 +44496,7 @@
 		(dnp no)
 		(uuid "c1bcf4a6-6891-485d-bc2e-5668a1196aa4")
 		(property "Reference" "#PWR078"
-			(at 36.83 332.486 0)
+			(at 36.83 337.566 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42662,7 +44507,7 @@
 			)
 		)
 		(property "Value" "GND_IN"
-			(at 36.83 338.074 0)
+			(at 36.83 343.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42672,7 +44517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 334.01 0)
+			(at 36.83 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42683,7 +44528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 334.01 0)
+			(at 36.83 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42694,7 +44539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 334.01 0)
+			(at 36.83 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42788,6 +44633,213 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 430.53 71.12 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3eb8d73-2471-4937-9456-58fb7ff4b1b5")
+		(property "Reference" "J11"
+			(at 429.26 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 429.26 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1073-01-2x2-MVT6"
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 430.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8eaef5f2-83af-4bbc-9232-e04185c82471")
+		)
+		(pin "4"
+			(uuid "7f877377-6acd-4954-b813-302439ba37c3")
+		)
+		(pin "1"
+			(uuid "394da6d3-3d1f-4bbb-b712-694045f583c5")
+		)
+		(pin "2"
+			(uuid "3b0fb68b-ada0-409c-ab20-a8b3d81decf5")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -43971,6 +46023,213 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 430.53 54.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccd61ad0-68eb-4b19-857b-86d1308feb8a")
+		(property "Reference" "J10"
+			(at 429.26 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 429.26 59.436 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1073-01-2x2-MVT6"
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 430.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6cf9702f-1bd4-4a6f-9c74-3319aa90a493")
+		)
+		(pin "4"
+			(uuid "219e5d68-613f-4bd5-909f-97bbb0529b6c")
+		)
+		(pin "1"
+			(uuid "9cf73a22-84bd-40dc-9aa7-5a2d2f9298eb")
+		)
+		(pin "2"
+			(uuid "a1791bc7-6e5b-46e9-8c2e-918d5f616041")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -49443,6 +51702,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND2")
+		(at 435.61 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3126a84-9999-4bd4-824a-f62b956b4b99")
+		(property "Reference" "#PWR0276"
+			(at 441.96 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_CAN2"
+			(at 443.484 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 435.61 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 435.61 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bdbe50c-ab67-49eb-b931-0cea11c60798")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "#PWR0276")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 153.67 58.42 0)
 		(unit 1)
@@ -49838,18 +52174,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power_my:VIN")
-		(at 24.13 334.01 180)
+		(lib_id "power_my:GND_CAN")
+		(at 435.61 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f99721a9-51ba-4ad5-a84f-27ade326d451")
-		(property "Reference" "#PWR077"
-			(at 24.13 332.486 0)
+		(uuid "f913d2e9-e448-480d-8743-3371e9a00086")
+		(property "Reference" "#PWR0272"
+			(at 439.166 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49859,8 +52195,8 @@
 				)
 			)
 		)
-		(property "Value" "VIN"
-			(at 24.13 338.074 0)
+		(property "Value" "GND_CAN1"
+			(at 443.484 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49870,7 +52206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 334.01 0)
+			(at 435.61 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49881,7 +52217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 334.01 0)
+			(at 435.61 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49892,7 +52228,84 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 334.01 0)
+			(at 435.61 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11819f2b-5d4f-454f-8b56-d93b47f06f3f")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965"
+					(reference "#PWR0272")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_my:VIN")
+		(at 24.13 339.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f99721a9-51ba-4ad5-a84f-27ade326d451")
+		(property "Reference" "#PWR077"
+			(at 24.13 337.566 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIN"
+			(at 24.13 343.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
