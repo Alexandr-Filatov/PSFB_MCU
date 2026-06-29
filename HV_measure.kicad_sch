@@ -5966,7 +5966,7 @@
 				)
 			)
 		)
-		(property "Product Name" "DS1073-01-2x1-MVT6"
+		(property "Product Name" "DS1073-01-2x1MR2T6"
 			(at 83.82 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9603,7 +9603,7 @@
 				)
 			)
 		)
-		(property "Product Name" "DS1073-01-2x1-MVT6"
+		(property "Product Name" "DS1073-01-2x1MR2T6"
 			(at 83.82 100.33 0)
 			(hide yes)
 			(show_name no)
