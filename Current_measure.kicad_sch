@@ -932,7 +932,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VA"
+		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -957,7 +957,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3VA"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -989,7 +989,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1011,7 +1011,7 @@
 					)
 				)
 			)
-			(symbol "+3.3VA_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1049,7 +1049,7 @@
 					)
 				)
 			)
-			(symbol "+3.3VA_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1725,83 +1725,6 @@
 		(uuid "ad78fa86-9be6-4b51-a9b4-8861d0185364")
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 124.46 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ca100fe-e2cc-4967-b135-1d7636a0aad6")
-		(property "Reference" "#PWR0262"
-			(at 124.46 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 124.206 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 124.46 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "171208b0-9201-4cab-913f-b3c5dc169005")
-		)
-		(instances
-			(project "PSFB_MCU"
-				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0262")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 139.7 83.82 0)
 		(unit 1)
@@ -1987,83 +1910,6 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
 					(reference "R93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 124.46 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2572b41f-80c8-4ad6-9436-b63204755660")
-		(property "Reference" "#PWR0254"
-			(at 124.46 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 124.206 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 124.46 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc839f42-e296-4680-8d4f-fc690be7f081")
-		)
-		(instances
-			(project "PSFB_MCU"
-				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
-					(reference "#PWR0254")
 					(unit 1)
 				)
 			)
@@ -2453,6 +2299,83 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
 					(reference "#PWR0260")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 124.46 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34c24828-b3df-48b4-9ccd-eb2191475e90")
+		(property "Reference" "#PWR0181"
+			(at 124.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 124.46 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 124.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4291ea30-72b6-405f-bc3e-7df2387a559b")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -4296,6 +4219,83 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
 					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 124.46 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df1de7db-b0c2-4a60-a6e1-5270533f0fc9")
+		(property "Reference" "#PWR0183"
+			(at 124.46 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 124.46 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7eec81ef-d6c3-4ded-9db2-0bdd913b58fd")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965/89bad089-f9ba-4bb1-8a9e-1e0b06104275"
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)

@@ -1203,6 +1203,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2491,7 +2658,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VA"
+		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2516,7 +2683,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3VA"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2548,7 +2715,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2570,7 +2737,7 @@
 					)
 				)
 			)
-			(symbol "+3.3VA_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2608,7 +2775,7 @@
 					)
 				)
 			)
-			(symbol "+3.3VA_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3218,7 +3385,7 @@
 		(uuid "0c673590-71e8-4f05-9ba0-ac01ec79ddfa")
 	)
 	(junction
-		(at 143.51 140.97)
+		(at 154.94 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1346c60b-1fa3-47f2-9050-225fd9954df2")
@@ -3344,7 +3511,7 @@
 		(uuid "770db931-dcf4-42d6-af98-df1c3aa78729")
 	)
 	(junction
-		(at 143.51 133.35)
+		(at 154.94 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "834c04a7-ecc2-40ae-9f3a-bfa63b31bc01")
@@ -3372,6 +3539,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae311ac6-b480-4871-b318-4755ce2ad724")
+	)
+	(junction
+		(at 148.59 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5f72e5c-bb09-4ac1-8123-eceea85fd2c7")
 	)
 	(junction
 		(at 68.58 116.84)
@@ -3517,16 +3690,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 113.03) (xy 143.51 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3845893c-baa5-4aee-ae13-f09f6c6d5982")
-	)
-	(wire
-		(pts
 			(xy 185.42 107.95) (xy 187.96 107.95)
 		)
 		(stroke
@@ -3637,6 +3800,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 97.79) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548cea47-c023-49d5-aa4f-356b86bfdfaa")
+	)
+	(wire
+		(pts
 			(xy 63.5 116.84) (xy 68.58 116.84)
 		)
 		(stroke
@@ -3657,7 +3830,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 140.97) (xy 149.86 140.97)
+			(xy 154.94 105.41) (xy 148.59 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4027,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 133.35) (xy 149.86 133.35)
+			(xy 154.94 97.79) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4104,6 +4277,16 @@
 			(type default)
 		)
 		(uuid "c90d7335-87b7-4d67-bffc-237b881f3e8f")
+	)
+	(wire
+		(pts
+			(xy 143.51 97.79) (xy 143.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac9a548-69b9-4a4d-8991-3381f80b73d4")
 	)
 	(wire
 		(pts
@@ -4264,6 +4447,16 @@
 			(type default)
 		)
 		(uuid "ee36bce4-6150-42fb-8f28-a6b347c3428d")
+	)
+	(wire
+		(pts
+			(xy 148.59 97.79) (xy 143.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0147151-de15-4e3f-bf04-5184cb33c23d")
 	)
 	(wire
 		(pts
@@ -4836,83 +5029,6 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
 					(reference "U19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 143.51 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0f253c04-021c-4d60-977a-8272336b41c1")
-		(property "Reference" "#PWR0218"
-			(at 143.51 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 143.256 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 143.51 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72a09627-bbca-4991-b324-4fabe209af72")
-		)
-		(instances
-			(project "PSFB_MCU"
-				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
-					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -5759,6 +5875,84 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
 					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 162.56 97.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3919e15f-ba15-4853-9a8b-e62633ccf8fe")
+		(property "Reference" "#PWR0149"
+			(at 162.56 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 162.56 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 162.56 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08d5b253-69fd-4691-8db4-13918ec5103e")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -6622,8 +6816,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 208.28 105.41 0)
+		(lib_id "Device:FerriteBead_Small")
+		(at 185.42 100.33 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6631,9 +6826,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "65be2b29-834c-4458-8317-418e42bc5229")
-		(property "Reference" "#PWR0215"
-			(at 208.28 109.22 0)
+		(uuid "59a0969e-bb32-4c66-8027-6b18a8abaa1c")
+		(property "Reference" "FB3"
+			(at 181.61 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 181.61 100.2919 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6643,18 +6848,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
-			(at 208.026 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 105.41 0)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 187.198 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6665,7 +6860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 105.41 0)
+			(at 185.42 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6675,8 +6870,52 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 208.28 105.41 0)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 185.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "MMZ2012R301AT000"
+			(at 185.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Ferrite bead"
+			(at 185.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 185.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 185.42 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,12 +6926,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e961ee1-01b4-4436-9189-5d75aedee716")
+			(uuid "7e9a1938-fd48-44d2-8f54-87d5cf188065")
+		)
+		(pin "2"
+			(uuid "512665e5-cbbb-435b-b0be-eadf5c6b47eb")
 		)
 		(instances
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
-					(reference "#PWR0215")
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -6996,83 +7238,6 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
 					(reference "#PWR0206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 143.51 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "749aa839-04b3-4b6d-97d0-6b5e74c28fd8")
-		(property "Reference" "#PWR0225"
-			(at 143.51 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 143.256 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 143.51 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7010f6ec-a371-42bd-9468-27aada1db65c")
-		)
-		(instances
-			(project "PSFB_MCU"
-				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
-					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -7710,7 +7875,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 140.97 0)
+		(at 154.94 105.41 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7720,7 +7886,7 @@
 		(dnp no)
 		(uuid "975b649f-0c00-4092-8940-1707a1d305b4")
 		(property "Reference" "#PWR0227"
-			(at 143.51 147.32 0)
+			(at 154.94 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7731,7 +7897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 144.78 0)
+			(at 154.94 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7741,7 +7907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 140.97 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7752,7 +7918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 140.97 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7763,7 +7929,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 140.97 0)
+			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8013,7 +8179,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 143.51 137.16 180)
+		(at 154.94 101.6 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8023,7 +8190,7 @@
 		(dnp no)
 		(uuid "9ce4518d-c780-4132-ba85-4d75a6ebc94b")
 		(property "Reference" "C88"
-			(at 144.145 135.255 0)
+			(at 154.305 99.695 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8034,7 +8201,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 144.145 139.065 0)
+			(at 154.305 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8045,7 +8212,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 142.5448 133.35 0)
+			(at 155.9052 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 137.16 0)
+			(at 154.94 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8067,7 +8234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 137.16 0)
+			(at 154.94 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8078,7 +8245,7 @@
 			)
 		)
 		(property "Replacement" ""
-			(at 143.51 137.16 0)
+			(at 154.94 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8089,7 +8256,7 @@
 			)
 		)
 		(property "Description P/N" "Capacitor SMD 25V"
-			(at 143.51 137.16 0)
+			(at 154.94 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8100,7 +8267,7 @@
 			)
 		)
 		(property "Product Name" ""
-			(at 143.51 137.16 0)
+			(at 154.94 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8120,6 +8287,84 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
 					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 185.42 97.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e8dbeb4-0ddd-4a4b-9b75-75e7d3550b21")
+		(property "Reference" "#PWR0151"
+			(at 185.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 185.42 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 185.42 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5ca9e30-9317-4da2-b919-170bd48df0ae")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -8349,6 +8594,208 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
 					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 157.48 97.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a74baae9-9187-4b87-8cc0-ad930ef10bb6")
+		(property "Reference" "FB2"
+			(at 157.226 94.742 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 157.5181 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 157.48 99.568 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 157.48 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "MMZ2012R301AT000"
+			(at 157.48 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Ferrite bead"
+			(at 157.48 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 157.48 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 157.48 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "373998b9-51c9-4862-8701-d826194a53db")
+		)
+		(pin "2"
+			(uuid "741f7632-c6b7-43ab-8a64-d0f8e3581550")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a89824e6-de97-455b-a0fa-180581e75e5e")
+		(property "Reference" "#PWR0143"
+			(at 208.28 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 208.28 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 208.28 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93b78f04-06d6-4dc8-be2b-7f82ae1be06b")
+		)
+		(instances
+			(project "PSFB_MCU"
+				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -8857,7 +9304,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 149.86 137.16 0)
+		(at 148.59 101.6 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8867,7 +9315,7 @@
 		(dnp no)
 		(uuid "baafd084-b2a5-4416-8ba7-942fed2ae139")
 		(property "Reference" "C89"
-			(at 150.495 135.255 0)
+			(at 147.955 99.695 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8878,7 +9326,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 150.495 139.065 0)
+			(at 147.955 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8889,7 +9337,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 150.8252 140.97 0)
+			(at 147.6248 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8900,7 +9348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 137.16 0)
+			(at 148.59 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8911,7 +9359,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 137.16 0)
+			(at 148.59 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,7 +9370,7 @@
 			)
 		)
 		(property "Replacement" ""
-			(at 149.86 137.16 0)
+			(at 148.59 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,7 +9381,7 @@
 			)
 		)
 		(property "Description P/N" "Capacitor SMD 25V"
-			(at 149.86 137.16 0)
+			(at 148.59 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8944,7 +9392,7 @@
 			)
 		)
 		(property "Product Name" ""
-			(at 149.86 137.16 0)
+			(at 148.59 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10294,83 +10742,6 @@
 			(project "PSFB_MCU"
 				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
 					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 185.42 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e445fa68-7e91-47fc-9295-cb56a7f7bb92")
-		(property "Reference" "#PWR0213"
-			(at 185.42 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 185.166 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 185.42 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14a9d440-3d21-474e-9788-5acbbce2484e")
-		)
-		(instances
-			(project "PSFB_MCU"
-				(path "/1f44d793-713f-4781-bd7e-20142de81965/70b7ff82-f266-429f-9b56-1fc4058a165c"
-					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
